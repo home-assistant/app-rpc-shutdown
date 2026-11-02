@@ -1,14 +1,14 @@
 ---
-version: "3.0"
+version: dev
 slug: rpc_shutdown
 name: RPC Shutdown
 description: Shutdown Windows machines remotely
-url: https://github.com/home-assistant/addons/tree/master/rpc_shutdown
+url: https://github.com/home-assistant/app-rpc-shutdown
 arch:
   - aarch64
   - amd64
 host_network: true
-image: homeassistant/{arch}-addon-rpc_shutdown
+image: ghcr.io/home-assistant/app-rpc-shutdown
 options:
   computers:
     - address: 192.168.0.1
