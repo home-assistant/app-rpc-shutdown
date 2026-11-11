@@ -3,7 +3,7 @@ ARG BUILD_FROM=ghcr.io/home-assistant/base:3.23-2026.11.0@sha256:4c0c177f1b50726
 FROM $BUILD_FROM
 
 # Add env
-ENV LANG C.UTF-8
+ENV LANG=C.UTF-8
 
 # Setup base
 RUN apk add --no-cache samba-common-tools samba-common
