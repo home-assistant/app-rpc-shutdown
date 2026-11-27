@@ -1,0 +1,6 @@
+---
+configuration:
+  computers:
+    name: Računari
+    description: >-
+      Lista računara koje je moguće isključiti iz Home Assistant-a.
